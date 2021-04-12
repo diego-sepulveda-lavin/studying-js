@@ -34,3 +34,51 @@ const someFunction2 = n => {
 };
 
 console.log(someFunction2(10));
+
+// Exercise 3
+const someFunction3 = n => {
+	let total = 0;
+	for (let i = 0; i < 1000; i++) {
+		total += 1; // This block of code is f(1000) => O(1)
+	}
+	return total;
+	// The whole function is f(1000) => O(1)
+};
+
+console.log(someFunction3(100));
+
+// Exercise 4
+const someFunction4 = n => {
+	let total = 0;
+	for (let i = 0; i < 10 * n; i++) {
+		total += 1; // This block of code is 10f(n) => O(n)
+	}
+	return total;
+	// The whole function is 10f(n) => O(n)
+};
+
+console.log(someFunction4(100));
+
+// Exercise 5
+const someFunction5 = n => {
+	let total = 0;
+	for (let i = 1; i < n; i = i * 2) {
+		total += 1; // This block of code is f(log(n)) => O(log(n))
+	}
+	return total;
+	// The whole function is O(log(n))
+};
+
+console.log(someFunction5(5));
+
+// Exercise 6
+const someFunction6 = n => {
+	let total = 0;
+	while (true) {
+		total += 1; // This block is an infinite loop
+	}
+	return total;
+	// The whole function is an infinite loop
+};
+
+//console.log(someFunction6(5));
