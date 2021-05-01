@@ -15,10 +15,12 @@
     // NOTE: As you write code, you should regularly add comments to clarify the function of parts of your code.
     // Good commenting can help communicate the intent of your code—both for others and for your future self.
 
-    // Try creating one of each type of comment:
+// Try creating one of each type of comment:
 
-    // You should create a // style comment that contains at least five letters.
-    // You should create a /* */ style comment that contains at least five letters.
+/*
+    - You should create a // style comment that contains at least five letters.
+    - You should create a multi-line style comment that contains at least five letters.
+*/
 
 // Esto es un comentario de una linea
 /*  Esto es un comentario

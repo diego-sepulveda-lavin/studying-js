@@ -28,6 +28,8 @@
     Look at the ourName example above if you get stuck.
 */
 
-// You should declare myName with the var keyword, ending with a semicolon
+/*
+    - You should declare myName with the var keyword, ending with a semicolon
+*/
 
 var myName;
